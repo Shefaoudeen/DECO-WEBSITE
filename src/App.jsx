@@ -1,3 +1,9 @@
+import { Logo } from "./assets";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">DECO-25</h1>;
+  return (
+    <div className="w-full h-screen flex justify-center">
+      <img src={Logo} className="h-screen" />
+    </div>
+  );
 }
